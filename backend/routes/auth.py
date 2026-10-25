@@ -45,13 +45,31 @@ def get_current_user_from_token(authorization: Optional[str] = Header(None)) -> 
         except Exception:
             pass
 
-    # Default fallback to first user or demo user
-    user = db.find_one("users", {"id": "user-demo-1"})
+    # Default fallback to active session user with clean empty preferences
+    user = db.find_one("users", {"id": "user-active-session"})
     if not user:
-        users = db.find("users", limit=1)
-        if users:
-            return users[0]
-        raise HTTPException(status_code=401, detail="Authentication required")
+        clean_user = {
+            "id": "user-active-session",
+            "username": "user",
+            "email": "user@labellens.app",
+            "password_hash": "",
+            "full_name": "My Account",
+            "preferences": {
+                "diet": [],
+                "allergens_to_avoid": [],
+                "avoid_ingredients": [],
+                "monitor_ingredients": [],
+                "find_ingredients": [],
+                "max_sugar_g": None,
+                "max_sodium_mg": None,
+                "max_sat_fat_g": None,
+                "min_protein_g": None,
+                "min_fiber_g": None
+            },
+            "created_at": datetime.datetime.now(datetime.timezone.utc).isoformat()
+        }
+        db.insert_one("users", clean_user)
+        return clean_user
     return user
 
 @router.post("/register")

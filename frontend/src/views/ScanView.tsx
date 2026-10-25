@@ -52,33 +52,12 @@ export const ScanView: React.FC<ScanViewProps> = ({ onScanCompleted }) => {
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const sampleImages = [
-    { name: 'Rolled Oats Nutrition & Ingredients', hint: 'Rolled Whole Grain Oats', url: getAssetUrl('/uploads/scan-0b92d8c6cf.jpg') },
-    { name: 'Britannia Marie Gold Packaging Label', hint: 'Britannia Marie Gold Biscuits', url: getAssetUrl('/uploads/scan-57258072c2.jpg') },
-    { name: 'Multi-Nutrient Nutrition Panel (443 kcal)', hint: 'Energy & Vitamin Packaging Label', url: getAssetUrl('/uploads/scan-e36ecdc8dd.jpg') }
-  ];
-
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
       setSelectedFile(file);
       setPreviewUrl(URL.createObjectURL(file));
       setScanResult(null);
-    }
-  };
-
-  const handleSelectSample = async (sample: typeof sampleImages[0]) => {
-    setProductHint(sample.hint);
-    setPreviewUrl(sample.url);
-    // Convert image url to a File object for real OCR processing pipeline
-    try {
-      const res = await fetch(sample.url);
-      const blob = await res.blob();
-      const file = new File([blob], `${sample.hint.replace(/\s+/g, '_')}_label.jpg`, { type: 'image/jpeg' });
-      setSelectedFile(file);
-      setScanResult(null);
-    } catch (err) {
-      console.error("Sample fetch error", err);
     }
   };
 
@@ -263,34 +242,22 @@ export const ScanView: React.FC<ScanViewProps> = ({ onScanCompleted }) => {
               </div>
             </div>
 
-            {/* Quick Sample Selector */}
-            <div>
-              <div style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--slate-700)', marginBottom: '0.65rem' }}>
-                Or select a realistic sample packaging label:
+            {/* Genuine Scanning Guidance */}
+            <div style={{
+              padding: '1rem',
+              backgroundColor: 'var(--cream-100)',
+              borderRadius: 'var(--radius-md)',
+              border: '1px solid var(--cream-200)',
+              fontSize: '0.825rem',
+              color: 'var(--slate-600)',
+              lineHeight: 1.5
+            }}>
+              <div style={{ fontWeight: 700, color: 'var(--forest-900)', marginBottom: '0.35rem', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                <Sparkles size={15} color="var(--forest-700)" /> Tips for Clear Extraction:
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                {sampleImages.map((s) => (
-                  <button
-                    key={s.name}
-                    onClick={() => handleSelectSample(s)}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      padding: '0.55rem 0.85rem',
-                      borderRadius: 'var(--radius-sm)',
-                      border: '1px solid var(--slate-200)',
-                      backgroundColor: 'var(--cream-50)',
-                      cursor: 'pointer',
-                      fontSize: '0.85rem',
-                      textAlign: 'left'
-                    }}
-                  >
-                    <span style={{ fontWeight: 600 }}>{s.name}</span>
-                    <span className="badge badge-forest" style={{ fontSize: '0.65rem' }}>Load Sample</span>
-                  </button>
-                ))}
-              </div>
+              • Position the Nutrition Facts table or Ingredient list in focus.<br />
+              • Avoid heavy glare, deep shadows, or extreme angles.<br />
+              • Supports packaged food labels, drinks, cereals, snacks, and condiments.
             </div>
           </div>
 
