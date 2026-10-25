@@ -1,0 +1,3298 @@
+{
+  "users": [
+    {
+      "id": "user-demo-1",
+      "username": "sophia",
+      "email": "sophia@labellens.ai",
+      "password_hash": "$2b$12$eXampleHashedPasswordForDemoOnly",
+      "full_name": "Sophia Tompson",
+      "preferences": {
+        "diet": [
+          "Vegetarian"
+        ],
+        "allergens_to_avoid": [
+          "Peanuts",
+          "Tree Nuts"
+        ],
+        "avoid_ingredients": [
+          "High Fructose Corn Syrup",
+          "Artificial Colors"
+        ],
+        "monitor_ingredients": [
+          "Palm Oil",
+          "Added Sugars"
+        ],
+        "find_ingredients": [
+          "Whole Grains",
+          "Dietary Fiber"
+        ],
+        "max_sugar_g": 12.0,
+        "max_sodium_mg": 250.0,
+        "max_sat_fat_g": 3.0,
+        "min_protein_g": 4.0,
+        "min_fiber_g": 3.0
+      },
+      "created_at": "2026-10-25T10:00:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-3017620422003",
+      "barcode": "3017620422003",
+      "name": "Nutella",
+      "brand": "Nutella, Ferrero",
+      "category": "Breakfasts",
+      "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "100.0g",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 539.0,
+        "protein_g": 6.3,
+        "fat_total_g": 30.9,
+        "saturated_fat_g": 10.6,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 57.5,
+        "sugars_g": 56.3,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 42.8,
+        "cholesterol_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 539.0,
+        "protein_g": 6.3,
+        "fat_total_g": 30.9,
+        "saturated_fat_g": 10.6,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 57.5,
+        "sugars_g": 56.3,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 42.8,
+        "cholesterol_mg": 0.0
+      },
+      "ingredients_raw": "sugar, palm oil",
+      "ingredients_list": [
+        {
+          "name": "sugar",
+          "clean_name": "Cane Sugar",
+          "category": "Sweetener",
+          "explanation": "Sucrose extracted from sugar cane stalks. Composed of 50% glucose and 50% fructose.",
+          "evidence_source": "USDA Dietary Guidelines for Americans 2020-2025",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "sugar",
+            "sucrose",
+            "evaporated cane juice"
+          ],
+          "allergen_potential": null,
+          "health_notes": "High caloric density without micro-nutrients. Contributes to tooth decay and metabolic strain."
+        },
+        {
+          "name": "palm oil",
+          "clean_name": "Palm Oil",
+          "category": "Fat / Oil",
+          "explanation": "An edible vegetable oil derived from the mesocarp of the fruit of the oil palm. High in saturated palmitic acid and often scrutinized for environmental and cardiovascular effects.",
+          "evidence_source": "WHO Guidelines on Saturated Fat Intake; American Heart Association 2020",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "fractionated palm oil",
+            "palmate",
+            "palmitate",
+            "elaeis guineensis"
+          ],
+          "allergen_potential": null,
+          "health_notes": "Contains ~50% saturated fat. Monitored for cardiovascular health and deforestation sustainability."
+        }
+      ],
+      "declared_allergens": [
+        "Milk",
+        "Nuts",
+        "Soybeans"
+      ],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2025-01-01",
+      "formulation_history": [],
+      "provenance": "Open Food Facts API",
+      "data_quality_score": 90.0,
+      "created_at": "2026-10-25T11:29:54.256941"
+    },
+    {
+      "id": "prod-scan-0b92d8c6cf",
+      "barcode": "SCAN_66A96CD8",
+      "name": "Rolled Whole Grain Oats",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+      "serving_size": 40.0,
+      "serving_unit": "g",
+      "serving_description": "40g (1cup)",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Whole GrainOats Cane Sugar, Sea Salt",
+      "ingredients_list": [
+        {
+          "name": "Whole GrainOats Cane Sugar",
+          "clean_name": "Cane Sugar",
+          "category": "Sweetener",
+          "explanation": "Sucrose extracted from sugar cane stalks. Composed of 50% glucose and 50% fructose.",
+          "evidence_source": "USDA Dietary Guidelines for Americans 2020-2025",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "sugar",
+            "sucrose",
+            "evaporated cane juice"
+          ],
+          "allergen_potential": null,
+          "health_notes": "High caloric density without micro-nutrients. Contributes to tooth decay and metabolic strain."
+        },
+        {
+          "name": "Sea Salt",
+          "clean_name": "Sea Salt",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Sea Salt is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 90.8,
+      "created_at": "2026-10-25T13:39:01.205522"
+    },
+    {
+      "id": "prod-scan-57258072c2",
+      "barcode": "SCAN_6540A84B",
+      "name": "Scanned Product",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-57258072c2.jpg",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "1 serving",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+      "ingredients_list": [
+        {
+          "name": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+          "clean_name": "Ingredients Not Detected In Scanned Crop. Please Review Or Type Manual Ingredients.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Ingredients not detected in scanned crop. Please review or type manual ingredients. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 49.2,
+      "created_at": "2026-10-25T13:50:40.247363"
+    },
+    {
+      "id": "prod-7622210449283",
+      "barcode": "7622210449283",
+      "name": "Prince",
+      "brand": "Mondelez Schweiz GmbH",
+      "category": "Snacks",
+      "image_url": "https://images.openfoodfacts.org/images/products/762/221/044/9283/front_en.605.400.jpg",
+      "serving_size": 20.0,
+      "serving_unit": "g",
+      "serving_description": "20g",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 93.4,
+        "protein_g": 1.26,
+        "fat_total_g": 3.4,
+        "saturated_fat_g": 1.12,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 13.8,
+        "sugars_g": 6.4,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.8,
+        "sodium_mg": 39.199999999999996,
+        "cholesterol_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 467.0,
+        "protein_g": 6.3,
+        "fat_total_g": 17.0,
+        "saturated_fat_g": 5.6,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 69.0,
+        "sugars_g": 32.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 4.0,
+        "sodium_mg": 196.0,
+        "cholesterol_mg": 0.0
+      },
+      "ingredients_raw": "C\u00e9r\u00e9ale 50 % (Farine de bl\u00e9 34,8 %, farine de bl\u00e9 complet 15,2 %), sucre, huiles v\u00e9g\u00e9tales (palme, colza), cacao maigre en poudre 4,5 %, sirop de glucose, amidon de bl\u00e9, poudres \u00e0 lever (carbonates d'ammonium, carbonates de sodium), \u00e9mulsifiant (l\u00e9cithines de soja), sel, lait \u00e9cr\u00e9m\u00e9 en poudre, perm\u00e9at de lactos\u00e9rum (de lait), ar\u00f4mes. Peut contenir \u0153uf.",
+      "ingredients_list": [
+        {
+          "name": "C\u00e9r\u00e9ale 50 % (Farine de bl\u00e9 34,8 %, farine de bl\u00e9 complet 15,2 %)",
+          "clean_name": "C\u00e9r\u00e9ale 50 % (Farine De Bl\u00e9 34,8 %, Farine De Bl\u00e9 Complet 15,2 %)",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "C\u00e9r\u00e9ale 50 % (Farine de bl\u00e9 34,8 %, farine de bl\u00e9 complet 15,2 %) is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "sucre",
+          "clean_name": "Sucre",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "sucre is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "huiles v\u00e9g\u00e9tales (palme, colza)",
+          "clean_name": "Huiles V\u00e9g\u00e9tales (Palme, Colza)",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "huiles v\u00e9g\u00e9tales (palme, colza) is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "cacao maigre en poudre 4",
+          "clean_name": "Cacao Maigre En Poudre 4",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "cacao maigre en poudre 4 is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "5 %",
+          "clean_name": "5 %",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "5 % is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "sirop de glucose",
+          "clean_name": "Sirop De Glucose",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "sirop de glucose is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "amidon de bl\u00e9",
+          "clean_name": "Amidon De Bl\u00e9",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "amidon de bl\u00e9 is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "poudres \u00e0 lever (carbonates d'ammonium, carbonates de sodium)",
+          "clean_name": "Poudres \u00c0 Lever (Carbonates D'Ammonium, Carbonates De Sodium)",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "poudres \u00e0 lever (carbonates d'ammonium, carbonates de sodium) is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "\u00e9mulsifiant (l\u00e9cithines de soja)",
+          "clean_name": "\u00c9mulsifiant (L\u00e9cithines De Soja)",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "\u00e9mulsifiant (l\u00e9cithines de soja) is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "sel",
+          "clean_name": "Sel",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "sel is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "lait \u00e9cr\u00e9m\u00e9 en poudre",
+          "clean_name": "Lait \u00c9cr\u00e9m\u00e9 En Poudre",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "lait \u00e9cr\u00e9m\u00e9 en poudre is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "perm\u00e9at de lactos\u00e9rum (de lait)",
+          "clean_name": "Perm\u00e9at De Lactos\u00e9rum (De Lait)",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "perm\u00e9at de lactos\u00e9rum (de lait) is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "ar\u00f4mes. Peut contenir \u0153uf.",
+          "clean_name": "Ar\u00f4mes. Peut Contenir \u0152uf.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "ar\u00f4mes. Peut contenir \u0153uf. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [
+        "Eggs",
+        "Gluten",
+        "Milk",
+        "Soybeans"
+      ],
+      "may_contain_allergens": [
+        "Eggs"
+      ],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2025-01-01",
+      "formulation_history": [],
+      "provenance": "Open Food Facts API",
+      "data_quality_score": 90.0,
+      "created_at": "2026-10-25T13:59:19.513708"
+    },
+    {
+      "id": "prod-5449000000996",
+      "barcode": "5449000000996",
+      "name": "Coca-Cola Original",
+      "brand": "COCA-COLA SERVICES SA/NV",
+      "category": "Beverages And Beverages Preparations",
+      "image_url": "https://images.openfoodfacts.org/images/products/544/900/000/0996/front_en.1129.400.jpg",
+      "serving_size": 330.0,
+      "serving_unit": "g",
+      "serving_description": "1 portion (330 ml)",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 140.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 35.0,
+        "sugars_g": 35.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 42.4,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 10.6,
+        "sugars_g": 10.6,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "ingredients_raw": "Agua carbonatada, az\u00facar, colorante (E-150d), acidulante (\u00e1cido fosf\u00f3rico), aromas naturales (contiene cafe\u00edna).",
+      "ingredients_list": [
+        {
+          "name": "Agua carbonatada",
+          "clean_name": "Agua Carbonatada",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Agua carbonatada is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "az\u00facar",
+          "clean_name": "Az\u00facar",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "az\u00facar is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "colorante (E-150d)",
+          "clean_name": "Colorante (E-150D)",
+          "category": "Colorant",
+          "explanation": "colorante (E-150d) standardizes or enhances the visual color of the product.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "acidulante (\u00e1cido fosf\u00f3rico)",
+          "clean_name": "Acidulante (\u00c1cido Fosf\u00f3rico)",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "acidulante (\u00e1cido fosf\u00f3rico) is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "aromas naturales (contiene cafe\u00edna).",
+          "clean_name": "Aromas Naturales (Contiene Cafe\u00edna).",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "aromas naturales (contiene cafe\u00edna). is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2025-01-01",
+      "formulation_history": [],
+      "provenance": "Open Food Facts API",
+      "data_quality_score": 90.0,
+      "created_at": "2026-10-25T13:59:20.943580"
+    },
+    {
+      "id": "prod-3046920029759",
+      "barcode": "3046920029759",
+      "name": "Excellence Noir Prodigieux 90% Cacao",
+      "brand": "Lindt, Lindt & Spr\u00fcngli",
+      "category": "Snacks",
+      "image_url": "https://images.openfoodfacts.org/images/products/304/692/002/9759/front_en.544.400.jpg",
+      "serving_size": 10.0,
+      "serving_unit": "g",
+      "serving_description": "1 square (10 g)",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 59.2,
+        "protein_g": 1.0,
+        "fat_total_g": 5.5,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "sugars_g": 0.7,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 1.2,
+        "cholesterol_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 592.0,
+        "protein_g": 10.0,
+        "fat_total_g": 55.0,
+        "saturated_fat_g": 30.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 14.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 12.0,
+        "cholesterol_mg": 0.0
+      },
+      "ingredients_raw": "P\u00e2te de cacao, beurre de cacao, cacao maigre, sucre, vanille.",
+      "ingredients_list": [
+        {
+          "name": "P\u00e2te de cacao",
+          "clean_name": "P\u00e2te De Cacao",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "P\u00e2te de cacao is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "beurre de cacao",
+          "clean_name": "Beurre De Cacao",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "beurre de cacao is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "cacao maigre",
+          "clean_name": "Cacao Maigre",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "cacao maigre is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "sucre",
+          "clean_name": "Sucre",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "sucre is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        },
+        {
+          "name": "vanille.",
+          "clean_name": "Vanille.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "vanille. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [
+        "Nuts"
+      ],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2025-01-01",
+      "formulation_history": [],
+      "provenance": "Open Food Facts API",
+      "data_quality_score": 90.0,
+      "created_at": "2026-10-25T13:59:22.273058"
+    },
+    {
+      "id": "prod-scan-e36ecdc8dd",
+      "barcode": "SCAN_5E4487AC",
+      "name": "Scanned Product",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-e36ecdc8dd.jpg",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "1 serving",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+      "ingredients_list": [
+        {
+          "name": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+          "clean_name": "Ingredients Not Detected In Scanned Crop. Please Review Or Type Manual Ingredients.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Ingredients not detected in scanned crop. Please review or type manual ingredients. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 49.6,
+      "created_at": "2026-10-25T14:09:46.467042"
+    },
+    {
+      "id": "prod-scan-c90330490d",
+      "barcode": "SCAN_99161487",
+      "name": "Scanned Product",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-c90330490d.jpg",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "1 serving",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+      "ingredients_list": [
+        {
+          "name": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+          "clean_name": "Ingredients Not Detected In Scanned Crop. Please Review Or Type Manual Ingredients.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Ingredients not detected in scanned crop. Please review or type manual ingredients. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 49.6,
+      "created_at": "2026-10-25T15:04:26.723514"
+    },
+    {
+      "id": "prod-scan-8fb987f650",
+      "barcode": "SCAN_45B6F66B",
+      "name": "Scanned Product",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-8fb987f650.jpg",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "100.0g",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 443.0,
+        "protein_g": 0.0,
+        "fat_total_g": 4.2,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 443.0,
+        "protein_g": 0.0,
+        "fat_total_g": 4.2,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+      "ingredients_list": [
+        {
+          "name": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+          "clean_name": "Nutrition Facts Panel Detected. (Ingredients Section Not Present In This Cropped Label View \u2014 Click 'Correct Ocr Fields' Below Or Upload The Full Packaging Image).",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image). is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 65.7,
+      "created_at": "2026-10-25T15:12:21.589045+00:00"
+    },
+    {
+      "id": "prod-scan-f7034c91a7",
+      "barcode": "SCAN_928CAED5",
+      "name": "Britannia Marie Gold Biscuits",
+      "brand": "Britannia",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-f7034c91a7.jpg",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "100.0g",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "REFINEDWHEATFLOUR(MAIDA)(730SUGARREFINEDPALM OLINVERTSUGARSYRUPMIUKSOUIDSRASINGAGENTS[503G&S00)] 15eg OZALLUSF)CALUMAUONDIO22 Phuten 1079 012mm 52 Soredfayls",
+      "ingredients_list": [
+        {
+          "name": "REFINEDWHEATFLOUR(MAIDA)(730SUGARREFINEDPALM OLINVERTSUGARSYRUPMIUKSOUIDSRASINGAGENTS[503G&S00)] 15eg OZALLUSF)CALUMAUONDIO22 Phuten 1079 012mm 52 Soredfayls",
+          "clean_name": "Cane Sugar",
+          "category": "Sweetener",
+          "explanation": "Sucrose extracted from sugar cane stalks. Composed of 50% glucose and 50% fructose.",
+          "evidence_source": "USDA Dietary Guidelines for Americans 2020-2025",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "sugar",
+            "sucrose",
+            "evaporated cane juice"
+          ],
+          "allergen_potential": null,
+          "health_notes": "High caloric density without micro-nutrients. Contributes to tooth decay and metabolic strain."
+        }
+      ],
+      "declared_allergens": [
+        "Wheat",
+        "Milk",
+        "Sulphites"
+      ],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 57.3,
+      "created_at": "2026-10-25T15:12:41.051697+00:00"
+    },
+    {
+      "id": "prod-scan-13f962c60b",
+      "barcode": "SCAN_E444FC72",
+      "name": "Rolled Whole Grain Oats",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-13f962c60b.jpg",
+      "serving_size": 40.0,
+      "serving_unit": "g",
+      "serving_description": "40g (1 cup)",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Whole Grain Oats Cane Sugar, Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt",
+      "ingredients_list": [
+        {
+          "name": "Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt",
+          "clean_name": "Sea Salt",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Sea Salt is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 90.8,
+      "created_at": "2026-10-25T15:12:54.929915+00:00"
+    },
+    {
+      "id": "prod-scan-28e1b46237",
+      "barcode": "SCAN_22EE91BB",
+      "name": "Scanned Product",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-28e1b46237.jpg",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "100.0g",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 443.0,
+        "protein_g": 0.0,
+        "fat_total_g": 4.2,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 443.0,
+        "protein_g": 0.0,
+        "fat_total_g": 4.2,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+      "ingredients_list": [
+        {
+          "name": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+          "clean_name": "Nutrition Facts Panel Detected. (Ingredients Section Not Present In This Cropped Label View \u2014 Click 'Correct Ocr Fields' Below Or Upload The Full Packaging Image).",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image). is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 65.7,
+      "created_at": "2026-10-25T15:17:50.046110+00:00"
+    },
+    {
+      "id": "prod-scan-09066870d6",
+      "barcode": "SCAN_C7A7B0B4",
+      "name": "Rolled Whole Grain Oats",
+      "brand": "Scanned Brand",
+      "category": "Packaged Food",
+      "image_url": "/uploads/scan-09066870d6.jpg",
+      "serving_size": 40.0,
+      "serving_unit": "g",
+      "serving_description": "40g (1 cup)",
+      "servings_per_container": 1.0,
+      "nutrition_per_serving": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "nutrition_per_100g": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Whole Grain Oats Cane Sugar, Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt",
+      "ingredients_list": [
+        {
+          "name": "Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt",
+          "clean_name": "Sea Salt",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Sea Salt is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "formulation_version": "1.0",
+      "last_reformulation_date": "2026-10-25",
+      "formulation_history": [],
+      "provenance": "User Label Scan OCR",
+      "data_quality_score": 90.8,
+      "created_at": "2026-10-25T19:34:23.399594+00:00"
+    }
+  ],
+  "scans": [
+    {
+      "id": "scan-0b92d8c6cf",
+      "user_id": "user-demo-1",
+      "original_filename": "oats_box.jpg",
+      "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+      "preprocessed_image_url": "/uploads/scan-0b92d8c6cf_proc.jpg",
+      "raw_ocr_text": "NUTRITIONFACTS\nServing Size 40g (1cup)\nCalories160\nTotal Fat4gSodium140mg\nTotalSugars3gProtein6g\nINGREDIENTS Whole GrainOats Cane Sugar, Sea Salt",
+      "ocr_confidence": 0.901,
+      "ocr_word_count": 16,
+      "data_quality_index": 90.8,
+      "uncertain_fields": [
+        "Carbohydrates"
+      ],
+      "extracted_product_name": "Rolled Whole Grain Oats",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 40.0,
+      "serving_unit": "g",
+      "serving_description": "40g (1cup)",
+      "nutrition_per_serving": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Whole GrainOats Cane Sugar, Sea Salt",
+      "ingredients_list": [
+        {
+          "name": "Whole GrainOats Cane Sugar",
+          "clean_name": "Cane Sugar",
+          "category": "Sweetener",
+          "explanation": "Sucrose extracted from sugar cane stalks. Composed of 50% glucose and 50% fructose.",
+          "evidence_source": "USDA Dietary Guidelines for Americans 2020-2025",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "sugar",
+            "sucrose",
+            "evaporated cane juice"
+          ],
+          "allergen_potential": null,
+          "health_notes": "High caloric density without micro-nutrients. Contributes to tooth decay and metabolic strain."
+        },
+        {
+          "name": "Sea Salt",
+          "clean_name": "Sea Salt",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Sea Salt is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "completed",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 160.0,
+          "protein_g": 6.0,
+          "fat_total_g": 4.0,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 3.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 140.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Whole GrainOats Cane Sugar, Sea Salt"
+      },
+      "created_at": "2026-10-25T13:39:01.202010",
+      "product_id": "prod-scan-0b92d8c6cf"
+    },
+    {
+      "id": "scan-57258072c2",
+      "user_id": "user-demo-1",
+      "original_filename": "Britannia-Marie-Gold-Biscuit-250g-2.jpg",
+      "image_url": "/uploads/scan-57258072c2.jpg",
+      "preprocessed_image_url": "/uploads/scan-57258072c2_proc.jpg",
+      "raw_ocr_text": "Nutrition tnformallon\nIHGREDIENTSEREFNEDWHEEFLOUR(NWIOVY(C3IOSUGARRETINEOPAOM\nPer 100g prodoct (oporox.)\nOLIEISUFRSYRUPHUSOTOSRUSHEIGENIS(SOSO&SOOO)\n215\nLOODEDSATSENTSFER(T2YCAOTMSI DOUGHCONOTIOWERI223)\nVTANNSSFERROUSSATIANDPODSSINATODATE\n1873\n52\nSarsed Faykis\nCONTAINSPERMITTEDNATURALCOLOUR(1SOJYANDADDED\nFLAVOURSHATUREIDENTICAY&ARTIHCIAL(MITKCYAMILIA)\n02mg\nFLIVOURINGSUBSTANCEST\nCONTAINSWHEATMILKANDSULPHITE\nssai\nBISCUITS NET WEIGHT\n250g\nLic.No.10015043001129\n1-800-4254449/1-800-30004530(Talfree)\nBBRITANHIA\nBrioo Indstiesd, Presige hnthiniken\nAILTAXES)\nPKD.\nTowerWileield, Bngore-560048, Kmcic\nLOTMo.\n@Emat fedbod@brindia.com\nMAERSADRAN",
+      "ocr_confidence": 0.705,
+      "ocr_word_count": 42,
+      "data_quality_index": 49.2,
+      "uncertain_fields": [
+        "Calories",
+        "Protein",
+        "Total Fat",
+        "Carbohydrates",
+        "Sodium",
+        "Ingredients list"
+      ],
+      "extracted_product_name": "Scanned Product",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "1 serving",
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+      "ingredients_list": [
+        {
+          "name": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+          "clean_name": "Ingredients Not Detected In Scanned Crop. Please Review Or Type Manual Ingredients.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Ingredients not detected in scanned crop. Please review or type manual ingredients. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "needs_review",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 0.0,
+          "protein_g": 0.0,
+          "fat_total_g": 0.0,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 0.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 0.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients."
+      },
+      "created_at": "2026-10-25T13:50:40.238446",
+      "product_id": "prod-scan-57258072c2"
+    },
+    {
+      "id": "scan-e36ecdc8dd",
+      "user_id": "user-demo-1",
+      "original_filename": "1310016853_n.jpg",
+      "image_url": "/uploads/scan-e36ecdc8dd.jpg",
+      "preprocessed_image_url": "/uploads/scan-e36ecdc8dd_proc.jpg",
+      "raw_ocr_text": "Nutrition Information\nper 100g product (approx.)\nCarbohydrates\nCalium\nSugrs\nIron\nProtein\nlodine\nFot\nViamin B*\nSauaedfs\nVitaminB2*\nMono unsaturated\nVitamin B3*\nfaty ads\n4.2g\nViamn B*\nVitamin B12*\nTransftyds\nCholeser\nOmg\nEnergy\nPantothenaie*\n443kcai",
+      "ocr_confidence": 0.73,
+      "ocr_word_count": 34,
+      "data_quality_index": 49.6,
+      "uncertain_fields": [
+        "Calories",
+        "Protein",
+        "Total Fat",
+        "Carbohydrates",
+        "Sodium",
+        "Ingredients list"
+      ],
+      "extracted_product_name": "Scanned Product",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "1 serving",
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+      "ingredients_list": [
+        {
+          "name": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+          "clean_name": "Ingredients Not Detected In Scanned Crop. Please Review Or Type Manual Ingredients.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Ingredients not detected in scanned crop. Please review or type manual ingredients. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "needs_review",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 0.0,
+          "protein_g": 0.0,
+          "fat_total_g": 0.0,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 0.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 0.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients."
+      },
+      "created_at": "2026-10-25T14:09:46.445512",
+      "product_id": "prod-scan-e36ecdc8dd"
+    },
+    {
+      "id": "scan-c90330490d",
+      "user_id": "user-demo-1",
+      "original_filename": "yellow_nutrition_label.jpg",
+      "image_url": "/uploads/scan-c90330490d.jpg",
+      "preprocessed_image_url": "/uploads/scan-c90330490d_proc.jpg",
+      "raw_ocr_text": "Nutrition Information\nper 100g product (approx.)\nCarbohydrates\nCalium\nSugrs\nIron\nProtein\nlodine\nFot\nViamin B*\nSauaedfs\nVitaminB2*\nMono unsaturated\nVitamin B3*\nfaty ads\n4.2g\nViamn B*\nVitamin B12*\nTransftyds\nCholeser\nOmg\nEnergy\nPantothenaie*\n443kcai",
+      "ocr_confidence": 0.73,
+      "ocr_word_count": 34,
+      "data_quality_index": 49.6,
+      "uncertain_fields": [
+        "Calories",
+        "Protein",
+        "Total Fat",
+        "Carbohydrates",
+        "Sodium",
+        "Ingredients list"
+      ],
+      "extracted_product_name": "Scanned Product",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "1 serving",
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+      "ingredients_list": [
+        {
+          "name": "Ingredients not detected in scanned crop. Please review or type manual ingredients.",
+          "clean_name": "Ingredients Not Detected In Scanned Crop. Please Review Or Type Manual Ingredients.",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Ingredients not detected in scanned crop. Please review or type manual ingredients. is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "needs_review",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 0.0,
+          "protein_g": 0.0,
+          "fat_total_g": 0.0,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 0.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 0.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Ingredients not detected in scanned crop. Please review or type manual ingredients."
+      },
+      "created_at": "2026-10-25T15:04:26.713282",
+      "product_id": "prod-scan-c90330490d"
+    },
+    {
+      "id": "scan-8fb987f650",
+      "user_id": "user-demo-1",
+      "original_filename": "yellow_nutrition_label.jpg",
+      "image_url": "/uploads/scan-8fb987f650.jpg",
+      "preprocessed_image_url": "/uploads/scan-8fb987f650_proc.jpg",
+      "raw_ocr_text": "Nutrition Information\nper 100g product (approx.)\nCarbohydrates\nCalcium\nSugars\nIron\nProtein\nlodine\nFot\n0.12mg\nViamin B*\nSaturate fty aids\nVitmin B2*\nMono unsaturated\nVitmin B3*\nfayds\n4.2g\nVitamin B6*\nPoly unsaturate ftyacids 1.7g\nVitaminB12*\nTrans fty acids\nFolcad*\nCholesterol\n443kcdl\nEnergy\nPantothenate*",
+      "ocr_confidence": 0.776,
+      "ocr_word_count": 42,
+      "data_quality_index": 65.7,
+      "uncertain_fields": [
+        "Protein",
+        "Carbohydrates",
+        "Sodium",
+        "Ingredients list"
+      ],
+      "extracted_product_name": "Scanned Product",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "100.0g",
+      "nutrition_per_serving": {
+        "calories": 443.0,
+        "protein_g": 0.0,
+        "fat_total_g": 4.2,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+      "ingredients_list": [
+        {
+          "name": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+          "clean_name": "Nutrition Facts Panel Detected. (Ingredients Section Not Present In This Cropped Label View \u2014 Click 'Correct Ocr Fields' Below Or Upload The Full Packaging Image).",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image). is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "completed",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 443.0,
+          "protein_g": 0.0,
+          "fat_total_g": 4.2,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 0.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 0.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image)."
+      },
+      "created_at": "2026-10-25T15:12:21.583973+00:00",
+      "product_id": "prod-scan-8fb987f650"
+    },
+    {
+      "id": "scan-f7034c91a7",
+      "user_id": "user-demo-1",
+      "original_filename": "britannia.jpg",
+      "image_url": "/uploads/scan-f7034c91a7.jpg",
+      "preprocessed_image_url": "/uploads/scan-f7034c91a7_proc.jpg",
+      "raw_ocr_text": "Nutrition Information\npee 100g prodocs (ggcox.)\nINGREDIENTS:REFINEDWHEATFLOUR(MAIDA)(730SUGARREFINEDPALM\nOLINVERTSUGARSYRUPMIUKSOUIDSRASINGAGENTS[503G&S00)]\n15eg\nOZALLUSF)CALUMAUONDIO22\nPhuten\n1079\n012mm\n52\nSoredfayls\nCONTAINSPERMITTEDHATURALCOLOUR(15O)ANDADDED\nFLAVOURSINATUREIDENTICAL&ARTIFICIAL(MILK&VANILLA)\nFLAVOURING SUBSTANCES\n(Numbersinbrockes os perlalernofooalNunberang Systen)\nCONTAINSWHEAT,MILKANDSULPHITE\nIssal\nBISCUITS NETWEIGHT\n250g\nForfebok-Cortot Exeafre,Consumer CareCel.\nLic.No.10015043001129\nBBRITANNIA\nBritnnio IndstisLid,Prestige Shonthiniketan\nALLTAXES)\nPKD.\nLOTNo.\n@Emilfb@birindi.om\nMACHINECODI\nBESTBEFORESIXMONTHS\n1313099",
+      "ocr_confidence": 0.728,
+      "ocr_word_count": 43,
+      "data_quality_index": 57.3,
+      "uncertain_fields": [
+        "Calories",
+        "Protein",
+        "Total Fat",
+        "Carbohydrates",
+        "Sodium"
+      ],
+      "extracted_product_name": "Britannia Marie Gold Biscuits",
+      "extracted_brand": "Britannia",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "100.0g",
+      "nutrition_per_serving": {
+        "calories": 0.0,
+        "protein_g": 0.0,
+        "fat_total_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "REFINEDWHEATFLOUR(MAIDA)(730SUGARREFINEDPALM OLINVERTSUGARSYRUPMIUKSOUIDSRASINGAGENTS[503G&S00)] 15eg OZALLUSF)CALUMAUONDIO22 Phuten 1079 012mm 52 Soredfayls",
+      "ingredients_list": [
+        {
+          "name": "REFINEDWHEATFLOUR(MAIDA)(730SUGARREFINEDPALM OLINVERTSUGARSYRUPMIUKSOUIDSRASINGAGENTS[503G&S00)] 15eg OZALLUSF)CALUMAUONDIO22 Phuten 1079 012mm 52 Soredfayls",
+          "clean_name": "Cane Sugar",
+          "category": "Sweetener",
+          "explanation": "Sucrose extracted from sugar cane stalks. Composed of 50% glucose and 50% fructose.",
+          "evidence_source": "USDA Dietary Guidelines for Americans 2020-2025",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "sugar",
+            "sucrose",
+            "evaporated cane juice"
+          ],
+          "allergen_potential": null,
+          "health_notes": "High caloric density without micro-nutrients. Contributes to tooth decay and metabolic strain."
+        }
+      ],
+      "declared_allergens": [
+        "Wheat",
+        "Milk",
+        "Sulphites"
+      ],
+      "may_contain_allergens": [],
+      "status": "completed",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 0.0,
+          "protein_g": 0.0,
+          "fat_total_g": 0.0,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 0.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 0.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "REFINEDWHEATFLOUR(MAIDA)(730SUGARREFINEDPALM OLINVERTSUGARSYRUPMIUKSOUIDSRASINGAGENTS[503G&S00)] 15eg OZALLUSF)CALUMAUONDIO22 Phuten 1079 012mm 52 Soredfayls"
+      },
+      "created_at": "2026-10-25T15:12:41.046828+00:00",
+      "product_id": "prod-scan-f7034c91a7"
+    },
+    {
+      "id": "scan-13f962c60b",
+      "user_id": "user-demo-1",
+      "original_filename": "oats.jpg",
+      "image_url": "/uploads/scan-13f962c60b.jpg",
+      "preprocessed_image_url": "/uploads/scan-13f962c60b_proc.jpg",
+      "raw_ocr_text": "NUTRITIONFACTS\nServing Size 40g (1 cup)\nCalories160\nTotal Fat 4g Sodium 140mg\nTotalSugars3gProtein6g\nINGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt",
+      "ocr_confidence": 0.902,
+      "ocr_word_count": 21,
+      "data_quality_index": 90.8,
+      "uncertain_fields": [
+        "Carbohydrates"
+      ],
+      "extracted_product_name": "Rolled Whole Grain Oats",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 40.0,
+      "serving_unit": "g",
+      "serving_description": "40g (1 cup)",
+      "nutrition_per_serving": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Whole Grain Oats Cane Sugar, Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt",
+      "ingredients_list": [
+        {
+          "name": "Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt",
+          "clean_name": "Sea Salt",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Sea Salt is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "completed",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 160.0,
+          "protein_g": 6.0,
+          "fat_total_g": 4.0,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 3.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 140.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Whole Grain Oats Cane Sugar, Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt"
+      },
+      "created_at": "2026-10-25T15:12:54.924943+00:00",
+      "product_id": "prod-scan-13f962c60b"
+    },
+    {
+      "id": "scan-28e1b46237",
+      "user_id": "user-demo-1",
+      "original_filename": "1310016853_n.jpg",
+      "image_url": "/uploads/scan-28e1b46237.jpg",
+      "preprocessed_image_url": "/uploads/scan-28e1b46237_proc.jpg",
+      "raw_ocr_text": "Nutrition Information\nper 100g product (approx.)\nCarbohydrates\nCalcium\nSugars\nIron\nProtein\nlodine\nFot\n0.12mg\nViamin B*\nSaturate fty aids\nVitmin B2*\nMono unsaturated\nVitmin B3*\nfayds\n4.2g\nVitamin B6*\nPoly unsaturate ftyacids 1.7g\nVitaminB12*\nTrans fty acids\nFolcad*\nCholesterol\n443kcdl\nEnergy\nPantothenate*",
+      "ocr_confidence": 0.776,
+      "ocr_word_count": 42,
+      "data_quality_index": 65.7,
+      "uncertain_fields": [
+        "Protein",
+        "Carbohydrates",
+        "Sodium",
+        "Ingredients list"
+      ],
+      "extracted_product_name": "Scanned Product",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 100.0,
+      "serving_unit": "g",
+      "serving_description": "100.0g",
+      "nutrition_per_serving": {
+        "calories": 443.0,
+        "protein_g": 0.0,
+        "fat_total_g": 4.2,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 0.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+      "ingredients_list": [
+        {
+          "name": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image).",
+          "clean_name": "Nutrition Facts Panel Detected. (Ingredients Section Not Present In This Cropped Label View \u2014 Click 'Correct Ocr Fields' Below Or Upload The Full Packaging Image).",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image). is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "completed",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 443.0,
+          "protein_g": 0.0,
+          "fat_total_g": 4.2,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 0.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 0.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Nutrition Facts panel detected. (Ingredients section not present in this cropped label view \u2014 click 'Correct OCR Fields' below or upload the full packaging image)."
+      },
+      "created_at": "2026-10-25T15:17:50.027678+00:00",
+      "product_id": "prod-scan-28e1b46237"
+    },
+    {
+      "id": "scan-09066870d6",
+      "user_id": "user-demo-1",
+      "original_filename": "oats_box.jpg",
+      "image_url": "/uploads/scan-09066870d6.jpg",
+      "preprocessed_image_url": "/uploads/scan-09066870d6_proc.jpg",
+      "raw_ocr_text": "NUTRITIONFACTS\nServing Size 40g (1 cup)\nCalories160\nTotal Fat 4g Sodium 140mg\nTotalSugars3gProtein6g\nINGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt",
+      "ocr_confidence": 0.902,
+      "ocr_word_count": 21,
+      "data_quality_index": 90.8,
+      "uncertain_fields": [
+        "Carbohydrates"
+      ],
+      "extracted_product_name": "Rolled Whole Grain Oats",
+      "extracted_brand": "Scanned Brand",
+      "serving_size": 40.0,
+      "serving_unit": "g",
+      "serving_description": "40g (1 cup)",
+      "nutrition_per_serving": {
+        "calories": 160.0,
+        "protein_g": 6.0,
+        "fat_total_g": 4.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 140.0,
+        "cholesterol_mg": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "potassium_mg": 0.0
+      },
+      "ingredients_raw": "Whole Grain Oats Cane Sugar, Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt",
+      "ingredients_list": [
+        {
+          "name": "Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar",
+          "clean_name": "Whole Grain Oats",
+          "category": "Whole Food",
+          "explanation": "Unrefined oat kernels containing the germ, endosperm, and bran. Rich in soluble beta-glucan fiber proven to help lower LDL cholesterol.",
+          "evidence_source": "FDA Health Claim 21 CFR 101.81; European Journal of Clinical Nutrition",
+          "confidence": 0.96,
+          "is_uncertain": false,
+          "synonyms": [
+            "rolled oats",
+            "oat groats",
+            "steel cut oats"
+          ],
+          "allergen_potential": "Gluten (if cross-contaminated)",
+          "health_notes": "Heart-healthy complex carbohydrate with low glycemic response."
+        },
+        {
+          "name": "Sea Salt",
+          "clean_name": "Sea Salt",
+          "category": "Whole Food / Primary Ingredient",
+          "explanation": "Sea Salt is a base food ingredient providing core macronutrients and structure.",
+          "evidence_source": "LabelLens NLP Linguistic Pattern & Codex Alimentarius Standard",
+          "confidence": 0.82,
+          "is_uncertain": false,
+          "synonyms": [],
+          "allergen_potential": null,
+          "health_notes": null
+        }
+      ],
+      "declared_allergens": [],
+      "may_contain_allergens": [],
+      "status": "completed",
+      "error_message": null,
+      "corrections_made": false,
+      "original_extracted_data": {
+        "nutrition": {
+          "calories": 160.0,
+          "protein_g": 6.0,
+          "fat_total_g": 4.0,
+          "saturated_fat_g": 0.0,
+          "trans_fat_g": 0.0,
+          "carbohydrates_g": 0.0,
+          "sugars_g": 3.0,
+          "added_sugars_g": 0.0,
+          "fiber_g": 0.0,
+          "sodium_mg": 140.0,
+          "cholesterol_mg": 0.0,
+          "calcium_mg": 0.0,
+          "iron_mg": 0.0,
+          "potassium_mg": 0.0
+        },
+        "ingredients_raw": "Whole Grain Oats Cane Sugar, Sea Salt NUTRITIONFACTS Serving Size 40g (1 cup) Calories160 Total Fat 4g Sodium 140mg TotalSugars3gProtein6g INGREDIENTS Whole Grain Oats Cane Sugar, Sea Salt"
+      },
+      "created_at": "2026-10-25T19:34:23.393342+00:00",
+      "product_id": "prod-scan-09066870d6"
+    }
+  ],
+  "analyses": [],
+  "comparisons": [
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf"
+      ],
+      "user_goal": "Lower Sugar",
+      "winner_id": "prod-scan-0b92d8c6cf",
+      "winner_name": "Rolled Whole Grain Oats",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0
+            },
+            "best_product_id": "prod-3017620422003"
+          }
+        ],
+        "user_goal": "Lower Sugar",
+        "winner_id": "prod-scan-0b92d8c6cf",
+        "winner_name": "Rolled Whole Grain Oats",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lower Sugar'. Key factors: 53.3g less sugar per serving",
+        "comparison_id": "fe50f013-3f01-4295-be21-a39bccfcc158"
+      },
+      "id": "fe50f013-3f01-4295-be21-a39bccfcc158",
+      "created_at": "2026-10-25T13:39:01.235539"
+    },
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf"
+      ],
+      "user_goal": "Lowest Sugar",
+      "winner_id": "prod-scan-0b92d8c6cf",
+      "winner_name": "Rolled Whole Grain Oats",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0
+            },
+            "best_product_id": "prod-3017620422003"
+          }
+        ],
+        "user_goal": "Lowest Sugar",
+        "winner_id": "prod-scan-0b92d8c6cf",
+        "winner_name": "Rolled Whole Grain Oats",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lowest Sugar'. Key factors: 53.3g less sugar per serving",
+        "comparison_id": "79420e95-2d6e-4376-b068-60bfe4a7c120"
+      },
+      "id": "79420e95-2d6e-4376-b068-60bfe4a7c120",
+      "created_at": "2026-10-25T13:56:03.296330"
+    },
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf"
+      ],
+      "user_goal": "Lowest Sugar",
+      "winner_id": "prod-scan-0b92d8c6cf",
+      "winner_name": "Rolled Whole Grain Oats",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0
+            },
+            "best_product_id": "prod-3017620422003"
+          }
+        ],
+        "user_goal": "Lowest Sugar",
+        "winner_id": "prod-scan-0b92d8c6cf",
+        "winner_name": "Rolled Whole Grain Oats",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lowest Sugar'. Key factors: 53.3g less sugar per serving",
+        "comparison_id": "ef0df2d2-df41-423a-8362-f4e04335da2c"
+      },
+      "id": "ef0df2d2-df41-423a-8362-f4e04335da2c",
+      "created_at": "2026-10-25T13:57:04.654454"
+    },
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf"
+      ],
+      "user_goal": "Lowest Sugar",
+      "winner_id": "prod-scan-0b92d8c6cf",
+      "winner_name": "Rolled Whole Grain Oats",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0
+            },
+            "best_product_id": "prod-3017620422003"
+          }
+        ],
+        "user_goal": "Lowest Sugar",
+        "winner_id": "prod-scan-0b92d8c6cf",
+        "winner_name": "Rolled Whole Grain Oats",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lowest Sugar'. Key factors: 53.3g less sugar per serving",
+        "comparison_id": "7db60046-88d4-4346-834a-db0e54b55cff"
+      },
+      "id": "7db60046-88d4-4346-834a-db0e54b55cff",
+      "created_at": "2026-10-25T13:57:51.660563"
+    },
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf"
+      ],
+      "user_goal": "Lowest Sugar",
+      "winner_id": "prod-scan-0b92d8c6cf",
+      "winner_name": "Rolled Whole Grain Oats",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0
+            },
+            "best_product_id": "prod-3017620422003"
+          }
+        ],
+        "user_goal": "Lowest Sugar",
+        "winner_id": "prod-scan-0b92d8c6cf",
+        "winner_name": "Rolled Whole Grain Oats",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lowest Sugar'. Key factors: 53.3g less sugar per serving",
+        "comparison_id": "ea16ea20-837f-482b-ae3e-a8a0e4db6a82"
+      },
+      "id": "ea16ea20-837f-482b-ae3e-a8a0e4db6a82",
+      "created_at": "2026-10-25T13:59:33.209891"
+    },
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf",
+        "prod-scan-57258072c2"
+      ],
+      "user_goal": "Lowest Sugar",
+      "winner_id": "prod-scan-57258072c2",
+      "winner_name": "Scanned Product",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          },
+          {
+            "id": "prod-scan-57258072c2",
+            "name": "Scanned Product",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-57258072c2.jpg",
+            "serving_description": "1 serving",
+            "nutrition": {
+              "calories": 0.0,
+              "protein_g": 0.0,
+              "fat_total_g": 0.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 0.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 0.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 1,
+            "declared_allergens": [],
+            "suitability_score": 78.0,
+            "preference_conflicts": [],
+            "data_quality_score": 49.2
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0,
+              "prod-scan-57258072c2": 0.0
+            },
+            "best_product_id": "prod-scan-57258072c2"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0,
+              "prod-scan-57258072c2": 0.0
+            },
+            "best_product_id": "prod-scan-57258072c2"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0,
+              "prod-scan-57258072c2": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0,
+              "prod-scan-57258072c2": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0,
+              "prod-scan-57258072c2": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0,
+              "prod-scan-57258072c2": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0,
+              "prod-scan-57258072c2": 0.0
+            },
+            "best_product_id": "prod-scan-57258072c2"
+          }
+        ],
+        "user_goal": "Lowest Sugar",
+        "winner_id": "prod-scan-57258072c2",
+        "winner_name": "Scanned Product",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lowest Sugar'. Key factors: 56.3g less sugar per serving; Zero personal dietary or allergen conflicts",
+        "comparison_id": "b012dfba-fc45-4c4e-a850-6cabc7bc245f"
+      },
+      "id": "b012dfba-fc45-4c4e-a850-6cabc7bc245f",
+      "created_at": "2026-10-25T13:59:51.685015"
+    },
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf"
+      ],
+      "user_goal": "Lowest Sugar",
+      "winner_id": "prod-scan-0b92d8c6cf",
+      "winner_name": "Rolled Whole Grain Oats",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0
+            },
+            "best_product_id": "prod-3017620422003"
+          }
+        ],
+        "user_goal": "Lowest Sugar",
+        "winner_id": "prod-scan-0b92d8c6cf",
+        "winner_name": "Rolled Whole Grain Oats",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lowest Sugar'. Key factors: 53.3g less sugar per serving",
+        "comparison_id": "00c0aa88-7ff4-41da-b739-57c616e966a1"
+      },
+      "id": "00c0aa88-7ff4-41da-b739-57c616e966a1",
+      "created_at": "2026-10-25T14:03:59.693690"
+    },
+    {
+      "user_id": "user-demo-1",
+      "product_ids": [
+        "prod-3017620422003",
+        "prod-scan-0b92d8c6cf"
+      ],
+      "user_goal": "Lower Sugar",
+      "winner_id": "prod-scan-0b92d8c6cf",
+      "winner_name": "Rolled Whole Grain Oats",
+      "result": {
+        "products": [
+          {
+            "id": "prod-3017620422003",
+            "name": "Nutella",
+            "brand": "Nutella, Ferrero",
+            "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+            "serving_description": "100.0g",
+            "nutrition": {
+              "calories": 539.0,
+              "protein_g": 6.3,
+              "fat_total_g": 30.9,
+              "saturated_fat_g": 10.6,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 57.5,
+              "sugars_g": 56.3,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 42.8,
+              "cholesterol_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [
+              "Milk",
+              "Nuts",
+              "Soybeans"
+            ],
+            "suitability_score": 23.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')",
+              "High Sugar: 56.3g exceeds your goal of 12.0g"
+            ],
+            "data_quality_score": 90.0
+          },
+          {
+            "id": "prod-scan-0b92d8c6cf",
+            "name": "Rolled Whole Grain Oats",
+            "brand": "Scanned Brand",
+            "image_url": "/uploads/scan-0b92d8c6cf.jpg",
+            "serving_description": "40g (1cup)",
+            "nutrition": {
+              "calories": 160.0,
+              "protein_g": 6.0,
+              "fat_total_g": 4.0,
+              "saturated_fat_g": 0.0,
+              "trans_fat_g": 0.0,
+              "carbohydrates_g": 0.0,
+              "sugars_g": 3.0,
+              "added_sugars_g": 0.0,
+              "fiber_g": 0.0,
+              "sodium_mg": 140.0,
+              "cholesterol_mg": 0.0,
+              "calcium_mg": 0.0,
+              "iron_mg": 0.0,
+              "potassium_mg": 0.0
+            },
+            "ingredients_count": 2,
+            "declared_allergens": [],
+            "suitability_score": 49.0,
+            "preference_conflicts": [
+              "Contains avoided ingredient: High Fructose Corn Syrup (Matched known synonym 'sugar')",
+              "Contains avoided ingredient: Artificial Colors (Matched known synonym 'sugar')"
+            ],
+            "data_quality_score": 90.8
+          }
+        ],
+        "comparison_matrix": [
+          {
+            "nutrient": "Calories",
+            "unit": "kcal",
+            "values": {
+              "prod-3017620422003": 539.0,
+              "prod-scan-0b92d8c6cf": 160.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 56.3,
+              "prod-scan-0b92d8c6cf": 3.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Added Sugars",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Fiber",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 0.0,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Protein",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 6.3,
+              "prod-scan-0b92d8c6cf": 6.0
+            },
+            "best_product_id": "prod-3017620422003"
+          },
+          {
+            "nutrient": "Saturated Fat",
+            "unit": "g",
+            "values": {
+              "prod-3017620422003": 10.6,
+              "prod-scan-0b92d8c6cf": 0.0
+            },
+            "best_product_id": "prod-scan-0b92d8c6cf"
+          },
+          {
+            "nutrient": "Sodium",
+            "unit": "mg",
+            "values": {
+              "prod-3017620422003": 42.8,
+              "prod-scan-0b92d8c6cf": 140.0
+            },
+            "best_product_id": "prod-3017620422003"
+          }
+        ],
+        "user_goal": "Lower Sugar",
+        "winner_id": "prod-scan-0b92d8c6cf",
+        "winner_name": "Rolled Whole Grain Oats",
+        "winner_brand": "Scanned Brand",
+        "recommendation_rationale": "Selected as top match for 'Lower Sugar'. Key factors: 53.3g less sugar per serving"
+      },
+      "id": "f1e9885c-ff06-4288-a2ad-005c20156fd8",
+      "created_at": "2026-10-25T19:34:23.435379+00:00"
+    }
+  ],
+  "saved_products": [],
+  "feedback": [],
+  "notifications": [],
+  "audit_logs": []
+}

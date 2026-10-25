@@ -1,0 +1,21 @@
+export const colors = {
+  forestGreen: '#174D36',
+  deepGreen: '#103C2B',
+  warmCream: '#FAF7F0',
+  white: '#FFFFFF',
+  paleMint: '#E7F3E8',
+  tangerine: '#F28C45',
+  softPeach: '#FCE4D6',
+  softYellow: '#FFF0C2',
+  primaryText: '#202820',
+  secondaryText: '#69736B',
+  border: '#E6EAE4',
+  cardBg: '#FFFFFF',
+  cardSub: '#F7F3EB',
+  dangerBg: '#FEE2E2',
+  dangerText: '#DC2626',
+  warningBg: '#FEF3C7',
+  warningText: '#D97706',
+  successBg: '#DCFCE7',
+  successText: '#15803D'
+};

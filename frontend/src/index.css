@@ -1,0 +1,213 @@
+:root {
+  /* Soft Pastel Warm Claymorphic Palette matching reference design */
+  --bg-app: #f7f2ec;
+  --bg-sidebar: #e9e0d8;
+  --bg-card: #e4dad1;
+  --bg-card-light: #ece3db;
+  --bg-card-sub: #f2eae2;
+  --bg-pill: #efe7df;
+  --bg-pill-hover: #e6dcce;
+  
+  --surface-white: #ffffff;
+  --surface-cream: #faf6f0;
+
+  --sidebar-active: #f7f2ec;
+  
+  --text-primary: #3b302a;
+  --text-secondary: #74675e;
+  --text-muted: #9e9188;
+  --text-dark: #261f1b;
+
+  --accent-coral: #e76f6f;
+  --accent-coral-bg: #fae1e1;
+  --accent-teal: #4caea3;
+  --accent-teal-bg: #dff2ef;
+  --accent-gold: #f4b43f;
+  --accent-gold-bg: #fdf2dc;
+  
+  --forest-deep: #2d5a43;
+  --forest-soft: #4a7c59;
+  --forest-subtle: #dbebe0;
+
+  --tangerine-warm: #e66a35;
+  --tangerine-soft: #fde8de;
+
+  --right-panel-bg: #cfc2b7;
+  --right-panel-card: #8c786c;
+  --right-panel-card-alt: #826e62;
+  --right-panel-text: #000000;
+
+  /* Typography */
+  --font-heading: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Clay & Soft Shadows */
+  --shadow-soft: 0 4px 14px rgba(60, 48, 42, 0.05);
+  --shadow-card: 0 8px 24px rgba(60, 48, 42, 0.07);
+  --shadow-inset: inset 0 2px 4px rgba(60, 48, 42, 0.06);
+  --shadow-pill: 0 2px 6px rgba(60, 48, 42, 0.04);
+
+  /* Radius */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-dark);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+/* Claymorphic Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: var(--forest-deep);
+  color: #000000;
+  box-shadow: 0 4px 12px rgba(45, 90, 67, 0.25);
+}
+.btn-primary:hover {
+  background-color: var(--forest-soft);
+  transform: translateY(-1px);
+}
+
+.btn-accent {
+  background-color: var(--tangerine-warm);
+  color: #000000;
+  box-shadow: 0 4px 12px rgba(230, 106, 53, 0.25);
+}
+.btn-accent:hover {
+  background-color: #d85c28;
+  transform: translateY(-1px);
+}
+
+.btn-pill {
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  border-radius: var(--radius-full);
+  padding: 0.55rem 1.15rem;
+  font-size: 0.85rem;
+  box-shadow: var(--shadow-pill);
+}
+.btn-pill:hover {
+  background-color: var(--bg-pill-hover);
+}
+
+.btn-secondary {
+  background-color: var(--bg-pill);
+  color: var(--text-primary);
+  border: 1px solid rgba(116, 103, 94, 0.15);
+}
+.btn-secondary:hover {
+  background-color: #e5dacd;
+}
+
+/* Clay Cards matching reference */
+.clay-card {
+  background-color: var(--bg-card);
+  border-radius: var(--radius-lg);
+  padding: 1.35rem;
+  box-shadow: var(--shadow-card);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.clay-card-inner {
+  background-color: var(--bg-card-sub);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow-soft);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-coral {
+  background-color: var(--accent-coral-bg);
+  color: #c53030;
+}
+
+.badge-teal {
+  background-color: var(--accent-teal-bg);
+  color: #237a6f;
+}
+
+.badge-gold {
+  background-color: var(--accent-gold-bg);
+  color: #975a16;
+}
+
+.badge-forest {
+  background-color: var(--forest-subtle);
+  color: var(--forest-deep);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-app);
+}
+::-webkit-scrollbar-thumb {
+  background: #c7b8ad;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8978c;
+}

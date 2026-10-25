@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "LabelLens",
+    "slug": "labellens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF7F0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.labellens.mobile",
+      "infoPlist": {
+        "NSCameraUsageDescription": "LabelLens requires camera access to scan food package ingredients and nutrition facts labels.",
+        "NSPhotoLibraryUsageDescription": "LabelLens requires photo library access to upload food packaging images for OCR analysis."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#174D36"
+      },
+      "package": "ai.labellens.mobile",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "labellens"
+  }
+}
