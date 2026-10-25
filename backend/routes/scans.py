@@ -1,6 +1,7 @@
 import os
 import uuid
 import shutil
+import logging
 from typing import Optional
 from fastapi import APIRouter, HTTPException, UploadFile, File, Form, Depends
 from database import db
@@ -9,6 +10,7 @@ from services.ocr_service import ocr_service
 from services.nlp_service import nlp_service
 from routes.auth import get_current_user_from_token
 
+logger = logging.getLogger("labellens.scans")
 router = APIRouter(prefix="/api/scans", tags=["Scans"])
 
 UPLOAD_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "uploads")
@@ -21,7 +23,7 @@ async def upload_label_image(
     current_user: dict = Depends(get_current_user_from_token)
 ):
     # Verify extension
-    ext = os.path.splitext(file.filename)[1].lower()
+    ext = os.path.splitext(file.filename)[1].lower() if file.filename else ".jpg"
     if ext not in [".jpg", ".jpeg", ".png", ".webp"]:
         raise HTTPException(status_code=400, detail="Unsupported file format. Please upload JPG, PNG, or WEBP.")
 
@@ -32,7 +34,27 @@ async def upload_label_image(
         shutil.copyfileobj(file.file, buffer)
 
     # Run genuine deep learning RapidOCR pipeline
-    ocr_result = ocr_service.extract_text_and_structure(file_path, user_hint_name=product_name_hint)
+    try:
+        ocr_result = ocr_service.extract_text_and_structure(file_path, user_hint_name=product_name_hint)
+    except Exception as e:
+        logger.error(f"OCR inference exception: {e}")
+        ocr_result = {
+            "status": "needs_review",
+            "error_message": f"Label parsing uncertainty: {str(e)}",
+            "raw_text": "",
+            "confidence": 0.0,
+            "word_count": 0,
+            "data_quality_index": 20.0,
+            "uncertain_fields": ["nutrition", "ingredients"],
+            "preprocessed_image": file_path,
+            "serving_size": 100.0,
+            "serving_unit": "g",
+            "serving_description": "1 serving",
+            "nutrition": NutritionFacts(),
+            "ingredients_raw": "Unable to extract clear text. Please review and input manually.",
+            "declared_allergens": [],
+            "may_contain_allergens": []
+        }
 
     # Segment and parse ingredients
     raw_ing = ocr_result["ingredients_raw"]

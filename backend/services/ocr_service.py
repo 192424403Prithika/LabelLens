@@ -34,6 +34,13 @@ class OCRService:
                 if img.mode not in ("RGB", "L"):
                     img = img.convert("RGB")
                 
+                # Downscale if exceeding 1500px to keep OCR fast and low-memory on cloud containers
+                max_dim = 1500
+                if max(img.width, img.height) > max_dim:
+                    ratio = max_dim / max(img.width, img.height)
+                    new_size = (int(img.width * ratio), int(img.height * ratio))
+                    img = img.resize(new_size, Image.Resampling.LANCZOS)
+
                 # Grayscale
                 gray = img.convert("L")
                 
@@ -47,7 +54,7 @@ class OCRService:
                 
                 base, ext = os.path.splitext(image_path)
                 processed_path = f"{base}_proc.jpg"
-                sharpened.save(processed_path, "JPEG", quality=95)
+                sharpened.save(processed_path, "JPEG", quality=90)
                 return processed_path
         except Exception as e:
             logger.error(f"Image preprocessing error: {e}")

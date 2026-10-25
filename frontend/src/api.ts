@@ -23,13 +23,25 @@ export function getAssetUrl(url?: string): string {
   return url;
 }
 
-export async function fetchJson<T>(url: string, options?: RequestInit): Promise<T> {
-  const res = await fetch(url, options);
-  if (!res.ok) {
-    const errorBody = await res.json().catch(() => ({ detail: res.statusText }));
-    throw new Error(errorBody.detail || `Request failed with status ${res.status}`);
+export async function fetchJson<T>(url: string, options?: RequestInit, retries = 2): Promise<T> {
+  try {
+    const res = await fetch(url, options);
+    if (!res.ok) {
+      const errorBody = await res.json().catch(() => ({ detail: res.statusText }));
+      throw new Error(errorBody.detail || `Request failed with status ${res.status}`);
+    }
+    return await res.json();
+  } catch (err: any) {
+    if (retries > 0 && (err.name === 'TypeError' || err.message?.includes('Failed to fetch'))) {
+      await new Promise(r => setTimeout(r, 2500));
+      return fetchJson<T>(url, options, retries - 1);
+    }
+    throw new Error(
+      err.message?.includes('Failed to fetch')
+        ? 'The backend server on Render free tier is waking up from sleep. Please wait 15 seconds and try again.'
+        : err.message
+    );
   }
-  return res.json();
 }
 
 export const api = {
