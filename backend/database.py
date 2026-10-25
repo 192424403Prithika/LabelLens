@@ -34,7 +34,7 @@ class DatabaseManager:
         os.makedirs(DATA_DIR, exist_ok=True)
         self.mongo_uri = os.getenv("MONGODB_URI", None)
 
-        if self.mongo_uri:
+        if self.mongo_uri and self.mongo_uri.strip().lower() not in ("none", "local", "null", ""):
             try:
                 from pymongo import MongoClient
                 client = MongoClient(self.mongo_uri, serverSelectionTimeoutMS=2000)
